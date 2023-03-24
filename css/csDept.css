@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainContainer {
+  border: 2px solid #c38e3c;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainContainer h1{
+    margin: 2em 0 1.5em 1em;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imageDeptt {
+    width: 50%;
+}
+
+.textOfDeptt {
+    width: 70%;
+    text-align: justify;
+    padding: 1em 1em 5em 1em;
+}
+
