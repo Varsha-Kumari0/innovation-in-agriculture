@@ -41,7 +41,7 @@ a.site-logo {
   position: relative;
 }
 .header-area {
-  background-color: #808080;
+  background-color: #92000a;
   background-position: center center;
   background-size: cover;
 }
@@ -273,7 +273,7 @@ a.site-logo {
       rgb(110, 149, 255),
       rgb(63, 63, 255)
     ); */
-  background: #808080;
+    background-color: #92000a;
   color: white;
   font-size: 1.2rem;
   /* align-items: baseline; */
