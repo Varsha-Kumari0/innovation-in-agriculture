@@ -159,11 +159,24 @@ a.site-logo {
   gap: 2rem;
 }
 
+.maincontainer2 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5rem 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
 .leftPart {
   width: 50%;
 }
 
 .leftPart h1 {
+  line-height: 2.5rem;
   padding: 10px;
   margin-bottom: 1rem;
   font-size: xx-large;
@@ -183,11 +196,19 @@ a.site-logo {
   height: 100%;
   width: 100%;
 }
-
-@media screen and (max-width: 1024px) {
-}
-
 @media screen and (max-width: 888px) {
+  .maincontainer  {
+    width: 85%;
+    padding: 3rem 1.5rem;
+  }
+  .maincontainer2  {
+    width: 85%;
+    padding: 3rem 1.5rem;
+  }
+  .rightPart {
+    width: 50%;
+    height: 60vh;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -234,6 +255,33 @@ a.site-logo {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .headerTop {
+    padding: 0.5rem 1rem;
+  }
+  .maincontainer {
+    flex-direction: column-reverse;
+  }
+  .maincontainer2 {
+    flex-direction: column;
+  }
+  .leftPart {
+    width: 100%;
+  }
+  .rightPart {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .site-logoText {
+    width: 70%;
+  }
+  .site-logoText img {
+    width: 100%;
+  }
+}
+
 /* footer */
 .footer {
   display: flex;
@@ -249,6 +297,7 @@ a.site-logo {
   /* align-items: baseline; */
   justify-content: space-between;
   padding: 2rem;
+  overflow: hidden;
 }
 
 .footer1 {

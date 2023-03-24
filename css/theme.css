@@ -192,13 +192,28 @@ a.site-logo {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .headerTop {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .site-logoText {
+    width: 70%;
+  }
+  .site-logoText img {
+    width: 100%;
+  }
+}
+
 /* home */
 .cardContainer {
     width: 80%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 5em;
+    /* padding: 5em; */
     justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
@@ -233,3 +248,71 @@ a.site-logo {
     text-align: justify;
   }
   
+
+
+  /* footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  /* background-image: linear-gradient(
+    to right bottom,
+    rgb(110, 149, 255),
+    rgb(63, 63, 255)
+  ); */
+  background: #808080;
+  color: white;
+  font-size: 1.2rem;
+  /* align-items: baseline; */
+  justify-content: space-between;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.footer1 {
+  background-color: white;
+  padding: 10px;
+}
+
+.logo {
+  height: 150px;
+  width: 200px;
+}
+
+.content {
+  padding: 7px;
+}
+
+.content ul {
+  margin: 1rem;
+}
+
+.title {
+  color: rgb(63, 63, 255);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.head {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.li {
+  list-style-type: none;
+}
+
+@media (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .logo {
+    height: 150px;
+    width: 200px;
+    margin: 0 0 0px 50px;
+  }
+}
