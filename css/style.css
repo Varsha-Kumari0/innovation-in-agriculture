@@ -293,7 +293,7 @@ a.site-logo {
     rgb(63, 63, 255)
   ); */
   background-color: #92000a;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
   /* align-items: baseline; */
   justify-content: space-between;
@@ -304,11 +304,15 @@ a.site-logo {
 .footer1 {
   background-color: white;
   padding: 10px;
+ 
 }
 
 .logo {
   height: 150px;
   width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content {
@@ -320,7 +324,7 @@ a.site-logo {
 }
 
 .title {
-  color: rgb(63, 63, 255);
+  color: rgb(0, 0, 0);
   font-size: 3rem;
   text-align: center;
 }
@@ -337,6 +341,12 @@ a.site-logo {
 .li {
   list-style-type: none;
 }
+  @media (max-width: 760px) {
+    .footer {
+      flex-direction: column;
+    }
+  
+  }
 
 @media (max-width: 320px) {
   .footer {
@@ -346,6 +356,6 @@ a.site-logo {
   .logo {
     height: 150px;
     width: 200px;
-    margin: 0 0 0px 50px;
+    margin: 0 0 0px 10px;
   }
 }

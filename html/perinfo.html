@@ -43,6 +43,72 @@ a {
 .flex{
     display: flex;
 }
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  /* background-image: linear-gradient(
+    to right bottom,
+    rgb(110, 149, 255),
+    rgb(63, 63, 255)
+  ); */
+  background-color: #92000a;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  /* align-items: baseline; */
+  justify-content: space-between;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.footer1 {
+  background-color: white;
+  padding: 10px;
+ 
+}
+
+.logo {
+  height: 150px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  padding: 7px;
+}
+
+.content ul {
+  margin: 1rem;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.head {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.li {
+  list-style-type: none;
+}
+  @media (max-width: 760px) {
+    .footer {
+      flex-direction: column;
+    }
+  
+  }
+
+
     </style>
 </head>
 <body>
@@ -102,6 +168,56 @@ a {
     <a href="#"><i class="fa fa-facebook"></i></a>
     <p><button class="buttoncard">Contact</button></p>
   </div>
+</div>
+<div class="footer">
+    <div class="footer1">
+        <img style="padding-bottom: 10px;"
+            src="http://sliet.ac.in/wp-content/themes/sliet/_inc/images/logo1.png" alt="team" class="logo">
+        <div class="title">SLIET</div>
+    </div>
+    <div class="content">
+        <div class=head>GENERAL INFO</div>
+        <ul>
+            <li>Website team</li>
+            <li>Downloads</li>
+            <li>Vacancy</li>
+            <li>Academic Calendar</li>
+            <li>SLIET Telephone Directory</li>
+            <li>Tender</li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class=head> Employee Corner</div>
+        <ul>
+            <li>Rule & Regulation</li>
+            <li>Office Order</li>
+            <li>Grievance Redressal Committee</li>
+            <li>Login</li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class=head> CELLS</div>
+        <ul>
+            <li>Scholarship Cell</li>
+            <li>IQAC</li>
+            <li>Annual Report 2020-21</li>
+            <li>SPIC MACAY</li>
+            <li>IC Committee</li>
+            <li>Nodal Officer (Anti Ragging)</li>
+            <li> Student's Mentor & TG Schemes</li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class=head> Useful Links</div>
+        <ul>
+            <li>RTI</li>
+            <li>Alumni</li>
+            <li>I-STEM</li>
+            <li>DASA Admission</li>
+            <li>Anti Ragging (UGC website)</li>
+            <li>NAD</li>
+        </ul>
+    </div>
 </div>
 
 
